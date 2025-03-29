@@ -1,0 +1,107 @@
+/**
+ * Styles pour la partie admin du plugin Fitness Planning Manager
+ *
+ * @since      1.0.0
+ */
+
+/* Styles généraux */
+.fitness-planning-admin-wrapper {
+    margin: 20px 0;
+}
+
+/* Styles pour les meta boxes */
+.pdf-upload-container {
+    margin-bottom: 15px;
+}
+
+.pdf-upload-container input[type="text"] {
+    width: 70%;
+    margin-right: 10px;
+}
+
+.pdf-upload-container .button {
+    margin-right: 5px;
+}
+
+.pdf-preview {
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.pdf-preview p {
+    margin-top: 0;
+    font-weight: 600;
+}
+
+/* Styles pour les taxonomies */
+.taxonomy-planning_city .term-description-wrap,
+.taxonomy-planning_type .term-description-wrap {
+    display: none;
+}
+
+/* Styles pour les badges de type de planning */
+.planning-type-badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 3px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.planning-type-badge.ramadan {
+    background-color: #ff6600;
+}
+
+.planning-type-badge.standard {
+    background-color: #2196F3;
+}
+
+.planning-type-badge.ete {
+    background-color: #4CAF50;
+}
+
+.planning-type-badge.special {
+    background-color: #9C27B0;
+}
+
+/* Styles pour la liste des plannings */
+.column-planning_image {
+    width: 100px;
+}
+
+.column-planning_image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.column-planning_city,
+.column-planning_type {
+    width: 120px;
+}
+
+.column-planning_pdf {
+    width: 100px;
+}
+
+.pdf-status {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.pdf-status.available {
+    background-color: #dff0d8;
+    color: #3c763d;
+}
+
+.pdf-status.not-available {
+    background-color: #f2dede;
+    color: #a94442;
+}
